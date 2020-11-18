@@ -1,0 +1,25 @@
+.topbarnav {
+    text-align:center;
+    margin-left:3vw;
+    font-family:'Montserrat';
+    text-decoration:none;
+    color:#fdd969;
+    border-bottom:2px;
+    border-bottom-style:none;
+  }
+  .topbarnav:hover {
+    border-bottom-style:solid;
+  }
+  #spacer {
+    padding-top:0.1vh;
+  }
+  #topbardiv {
+    margin-top:-0.75vw;
+    background-color:#471711;
+    padding-top:0.5vh;
+    text-align:center;
+    padding-bottom:0.5vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width:102.4%;
+    margin-left:-2%;
+  }
