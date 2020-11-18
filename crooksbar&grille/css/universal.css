@@ -1,0 +1,381 @@
+body {
+    overflow-x: hidden;
+    color:white;
+    margin-left:1%;
+  }
+  p {
+    color: black;
+  }
+  h1 {
+    font-weight: bold;
+  }
+  #navbar {
+    position:sticky;
+    top:0;
+    margin: 0 -1.6rem;
+    margin-top:-2%;
+    height:3rem;
+    z-index:2000;
+  }
+  #navbarfake {
+    background-color:white;
+    position:sticky;
+    height:100%;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.10);
+    z-index:2000;
+  }
+  .navbarlink {
+    text-decoration:none;
+    margin-left:1rem;
+    font-family:'Lato';
+    text-decoration:none;
+    color:black;
+    border-bottom:2px;
+    border-color:white;
+    border-bottom-style:solid;
+    transition: border-color 0.3s;
+  }
+  #mainpageheader {
+    background-image:url('../img/header.webp');
+    width:104%;
+    padding-top:10%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 -1.6rem;
+    -webkit-font-smoothing: antialiased;
+  }
+  #locationheader {
+    background-image:url('../img/locationheader.webp');
+    width:104%;
+    padding-top:10%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 -1.6rem;
+    -webkit-font-smoothing: antialiased;
+  }
+  #aboutusheader {
+    background-image:url('../img/aboutusheader.webp');
+    padding-top:10%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 -1.6rem;
+    -webkit-font-smoothing: antialiased;
+  }
+  .navbarlinkh3 {
+    padding-top:0.75rem;
+    margin-left:1rem;
+  }
+  .navbarlink:hover {
+    border-color:black;
+    transition: border-color 0.3s;
+  }
+  footer#codeprojects_pagefooter {
+    z-index: -1;
+    display: none;
+  }
+  .headerimg {
+    width:100%;
+    height:auto;
+    border-bottom-style:solid;
+    border-bottom-color:black;
+  }
+  .headertext {
+    position:relative;
+    color:white;
+    text-align:center;
+    font-family:lato;
+    font-size:600%;
+    text-shadow: 2px 2px black;
+    -webkit-font-smoothing: antialiased;
+  }
+  .adresstext {
+    margin-top:-5rem;
+    padding-bottom:20%;
+    color:white;
+    text-align:center;
+    font-family:lato;
+    font-size:250%;
+    text-shadow: 2px 2px black;
+    -webkit-font-smoothing: antialiased;
+  }
+  .title {
+    color:black;
+    text-align:center;
+    font-family:lato;
+    margin-top:12rem;
+    font-size:300%;
+    -webkit-font-smoothing: antialiased;
+  }
+  .titlefirst {
+    color:black;
+    text-align:center;
+    font-family:lato;
+    padding-top:1%;
+    font-size:300%;
+    -webkit-font-smoothing: antialiased;
+  }
+  #welcometocrookstitle {
+    color:black;
+    text-align:center;
+    font-family:lato;
+    margin-top:-2rem;
+    font-size:300%;
+    -webkit-font-smoothing: antialiased;
+  }
+  #othertitle {
+    color:black;
+    text-align:center;
+    font-family:lato;
+    font-size:300%;
+    -webkit-font-smoothing: antialiased;
+  }
+  #fakeup {
+    padding-bottom:-11rem;
+  }
+  #ourmission {
+    background-color:#F5F5F5;
+    width:104%;
+    margin-left:-2%;
+    padding-bottom:1rem
+  }
+  .pright {
+    float:right;
+    width:60%;
+    margin-right:4%;
+    font-family:'Lato';
+    margin-top:-1.6rem;
+    font-size:140%;
+    margin-top:-30px;
+  }
+  .pleft {
+    float:left;
+    width:60%;
+    margin-right:5%;
+    font-family:'Lato';
+    margin-top:-1.6rem;
+    font-size:140%;
+    margin-top:-30px;
+  }
+  .fullbodypara {
+    width:95%;
+    margin-left:2.5%;
+    font-family:'Lato';
+    margin-top:-1.6rem;
+    font-size:150%;
+    margin-top:-30px;
+  }
+  .imgleft {
+    width:30%;
+    margin-left:4%;
+    margin-top:-1.6rem;
+    height:auto;
+    border-color:black;
+    border-style:solid;
+    border-width:4px;
+    background-position:right top;
+    max-width:30rem;
+  }
+  .imgright {
+    width:30%;
+    margin-top:-1.6rem;
+    height:auto;
+    border-color:black;
+    border-style:solid;
+    border-width:4px;
+    align-self:center;
+    background-position:right top;
+    max-width:30rem;
+  }
+  #menubutton {
+    margin-top:12rem;
+    color:black;
+    width:60%;
+    margin-left:20%;
+    border-style:solid;
+    border-width:6px;
+    border-color:black;
+    font-family:lato;
+    font-size:300%;
+    background-color:transparent;
+    -webkit-font-smoothing: antialiased;
+  }
+  .drinkcontainer {
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    justify-items: center;
+    width:80%;
+    margin-left:10%;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.30);
+    background-color:#F5F5F5;
+    padding-top:20px;
+  }
+  .drinkcont {
+    height:100%;
+    width:80%;
+    background-color:#F5F5F5;
+  }
+  .drinkinfo {
+    height:30%;
+    display:grid;
+    grid-template-columns:100%;
+    grid-template-rows:20% 20%;
+  }
+  .drinkimg {
+    width:100%;
+    border-style:solid;
+    border-color:black;
+    padding-bottom:-2px;
+  }
+  .drinkprice {
+    font-family:'Lato';
+    grid-column-start:1;
+    grid-row-start:3;
+    margin-left:4px;
+    font-size:200%;
+    align-self: start;
+  }
+  .rangeprice {
+    font-family:'Lato';
+    grid-column-start:1;
+    grid-row-start:3;
+    margin-left:4px;
+    font-size:170%;
+    align-self: start;
+  }
+  .drinktitle {
+    grid-column-start:1;
+    grid-row-start:1;
+    font-family:'Lato';
+    margin-left:4px;
+    margin-top:0px;
+    font-size:200%;
+  }
+  .quantityinfo {
+    font-family:'Lato';
+    margin-left:4px;
+    margin-top:-2rem;
+    font-size:80%;
+    grid-column-start:1;
+    grid-row-start:2;
+  }
+  .subtitle {
+    font-family:'Lato';
+    color:black;
+    text-align:center;
+    font-size:180%;
+    margin-top:2%;
+    margin-bottom:2%;
+  }
+  .firstsub {
+    font-family:'Lato';
+    color:black;
+    text-align:center;
+    font-size:180%;
+  }
+  .clear {
+    clear:both;
+    margin-bottom:-11rem;
+  }
+  @media (max-width: 1023px) {
+    .drinkcontainer {
+      display:grid;
+      grid-template-columns:repeat(2, 1fr);
+      justify-items: center;
+      grid-row-gap:-3%;
+      width:80%;
+      margin-left:10%;
+      box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.30);
+      background-color:#F5F5F5;
+      padding-top:20px;
+      padding-bottom:5%;
+    }
+    .drinkprice {
+      font-family:'Lato';
+      grid-column-start:1;
+      grid-row-start:3;
+      margin-left:4px;
+      font-size:250%;
+      align-self: start;
+    }
+    .drinktitle {
+      grid-column-start:1;
+      grid-row-start:1;
+      font-family:'Lato';
+      margin-left:4px;
+      margin-top:8px;
+      font-size:275%;
+    }
+    #navbar {
+      position:sticky;
+      top:0;
+      margin: 0 -1.5rem;
+      margin-top:-3rem;
+      height:7rem;
+      z-index:2000;
+    }
+    .navbarlinkh3 {
+      padding-top:2rem;
+      margin-left:1rem;
+      font-size:250%;
+    }
+    .subtitle {
+      font-family:'Lato';
+      color:black;
+      text-align:center;
+      font-size:500%;
+    }
+    .firstsub {
+      font-family:'Lato';
+      color:black;
+      text-align:center;
+      font-size:500%;
+      margin-top:-1.5rem;
+    }
+    .title {
+      color:black;
+      text-align:center;
+      font-family:lato;
+      margin-top:12rem;
+      font-size:700%;
+      -webkit-font-smoothing: antialiased;
+    }
+    .titlefirst {
+      color:black;
+      text-align:center;
+      font-family:lato;
+      padding-top:1.8rem;
+      font-size:700%;
+      -webkit-font-smoothing: antialiased;
+    }
+    .drinkinfo {
+      height:30%;
+      display:grid;
+      grid-template-columns:100%;
+      grid-template-rows:30% 30%;
+    }
+    .navbarlink {
+      text-decoration:none;
+      margin-left:1rem;
+      font-family:'Lato';
+      text-decoration:none;
+      color:black;
+      border-bottom:8px;
+      border-color:white;
+      border-bottom-style:solid;
+      transition: border-color 0.3s;
+    }
+    .rangeprice {
+      font-family:'Lato';
+      grid-column-start:1;
+      grid-row-start:3;
+      margin-left:4px;
+      font-size:250%;
+      align-self: start;
+    }
+  }
