@@ -1,0 +1,177 @@
+
+.prlink {
+  padding-top:0.5vw;
+  text-align: center;
+  font-family: 'Comfortaa';
+  color: black;
+  margin-top: 0em;
+  text-shadow: 0 0 1px black, 0 0 3px black;
+  text-decoration:none;
+  text-shadow: 0 0 1px black, 0 0 2px black
+}
+body {
+  height: 100%;
+  margin: 0px;
+  overflow-x:hidden;
+  background-color:#222121;
+  background-image:url(../img/bg.webp);
+  background-size:cover;
+  background-attachment: fixed;
+}
+.prlink:hover {
+  text-decoration: underline;
+}
+#prcontainer {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #f0f0f0;
+    margin-top: 2vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    text-align: center;
+    padding-bottom:2vh;
+    margin-bottom:2vh;
+}
+#headerpr {
+    width:100%;
+    background-color:transparent;
+}
+.prheader {
+  width:100%;
+  border-bottom:4px solid black;
+}
+.prtitle {
+  text-align: center;
+  font-family: 'Comfortaa';
+  color: #f0f0f0;
+  margin-top: 0em;
+  font-size:300%;
+  text-shadow: 0px 0px 24px black, 0px 0px 24px black;
+  position: absolute;
+  margin-top:4vw;
+  margin-left:5vw;
+  width:50vw;
+}
+.prsub {
+  text-align: left;
+  font-family: 'Comfortaa';
+  color: black;
+  margin-top: 0em;
+  font-size:170%;
+  margin-left:1vw;
+}
+.prbody {
+  text-align: left;
+  font-family: 'Comfortaa';
+  color: black;
+  font-size:100%;
+  margin-left:1vw;
+  width:57vw;
+}
+.prbody1up {
+  text-align: left;
+  font-family: 'Comfortaa';
+  color: black;
+  font-size:100%;
+  margin-left:1vw;
+  width:58vw;
+}
+#firstsub {
+  padding-top:6px;
+}
+.divider {
+  border-bottom:1px solid gray;
+  width:57vw;
+  margin-left:1vw;
+  margin-top: -0.5vh;
+  padding-bottom:0.5vh;
+}
+.image {
+  width:58vw;
+  margin-left:1vw;
+}
+#itapenimage {
+  width:20vw;
+  margin-left:1vw;
+  float:left;
+  border:4px solid black;
+}
+#chimap {
+  width:20vw;
+  margin-left:1vw;
+  float:left;
+  border:4px solid black;
+}
+.clear {
+  clear:both;
+  padding-bottom:0.2vh;
+}
+#socagimg {
+  width:8vw;
+  margin-left:1vw;
+  float:left;
+  border:4px solid black;
+}
+.prsubsub {
+  text-align: left;
+  font-family: 'Comfortaa';
+  color: black;
+  margin-top: 0em;
+  font-size:120%;
+  margin-left:1vw;
+}
+@media only screen and (max-width: 1279px) {
+  #prcontainer {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      background-color: #f0f0f0;
+      margin-left: 0vw;
+      margin-right: 0vw;
+      text-align: center;
+  }
+  .divider {
+    border-bottom:1px solid gray;
+    width:95vw;
+    margin-left:1vw;
+    margin-top: -0.5vh;
+    padding-bottom:0.5vh;
+  }
+  .prbody {
+    text-align: left;
+    font-family: 'Comfortaa';
+    color: black;
+    font-size:100%;
+    margin-left:1vw;
+    width:95vw;
+  }
+  .prbody1up {
+    text-align: left;
+    font-family: 'Comfortaa';
+    color: black;
+    font-size:100%;
+    margin-left:1vw;
+    width:98vw;
+  }
+  #socagimg {
+    width:80vw;
+    margin-left:1vw;
+    float:left;
+    border:4px solid black;
+  }
+  #itapenimage {
+    width:80vw;
+    margin-left:1vw;
+    float:left;
+    border:4px solid black;
+  }
+  .prtitle {
+    text-align: center;
+    font-family: 'Comfortaa';
+    color: white;
+    margin-top: 0em;
+    font-size:300%;
+    text-shadow: 0px 0px 24px black, 0px 0px 24px black;
+    position: absolute;
+    margin-top:4vw;
+    margin-left:24vw;
+    width:50vw;
+  }
+}

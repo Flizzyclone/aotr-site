@@ -1,0 +1,112 @@
+
+#krgbackgroundtitleimage {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+body {
+  height: 100%;
+  margin: 0px;
+  overflow-x:hidden;
+  background-color:#222121;
+  background-image:url(../img/bg.webp);
+  background-size:cover;
+  background-attachment: fixed;
+}
+html {
+ height:100%;
+}
+
+#header {
+  background-color:transparent;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#logo {
+  width:25%;
+}
+#fiverem {
+  margin-top:5rem;
+}
+.title {
+  font-size:500%;
+  text-align:center;
+  color:#f0f0f0;
+  font-family:'Lato';
+  font-weight:100;
+}
+.para {
+  font-size:200%;
+  text-align:center;
+  color:#f0f0f0;
+  font-family:'Lato';
+  font-weight:100;
+  width:80%;
+  margin-left:10%;
+}
+.whatis {
+  margin-top:-40px;
+  border-top: 1px solid #f0f0f0;
+  width:70%;
+  margin-left:15%;
+}
+.mainbutton {
+  background-color:transparent;
+  color:#f0f0f0;
+  border:0;
+  border-radius:12px;
+  width:25%;
+  height:6rem;
+  margin-left:37.5%;
+  margin-bottom:2rem;
+  font-size:240%;
+  font-family:'Lato';
+  transition: background-color 0.5s;
+  border: 3px solid #f0f0f0;
+}
+.mainbutton:hover {
+  background-color:#252525;
+  transition: background-color 0.5s;
+}
+@media only screen and (max-width: 1279px) {
+  #logo {
+    width:75%;
+  }
+  .whatis {
+    margin-top:-10px;
+    border-top: 1px solid #f0f0f0;
+    width:85%;
+    margin-left:7.5%;
+  }
+  .mainbutton {
+    background-color:transparent;
+    color:#f0f0f0;
+    border:0;
+    border-radius:12px;
+    width:80%;
+    height:6rem;
+    margin-left:10%;
+    margin-bottom:2rem;
+    font-size:200%;
+    font-family:'Lato';
+    border: 3px solid #f0f0f0;
+  }
+  .title {
+    font-size:230%;
+    text-align:center;
+    color:#f0f0f0;
+    font-family:'Lato';
+    font-weight:100;
+  }
+  .para {
+    font-size:130%;
+    text-align:center;
+    color:#f0f0f0;
+    font-family:'Lato';
+    font-weight:100;
+    width:80%;
+    margin-left:10%;
+  }
+}
